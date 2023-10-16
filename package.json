@@ -1,0 +1,10 @@
+{
+  "name": "windows-action-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rick <abneryaoo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
