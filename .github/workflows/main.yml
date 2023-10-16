@@ -19,7 +19,9 @@ jobs:
       # - name: Install yarn
       #   run: npm install --global yarn
 
-      - name: Run install
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: install
+      - name: install frontend dependencies
+        run: yarn install # change this to npm or pnpm depending on which one you use
+      # - name: Run install
+      #   uses: borales/actions-yarn@v4
+      #   with:
+      #     cmd: install
